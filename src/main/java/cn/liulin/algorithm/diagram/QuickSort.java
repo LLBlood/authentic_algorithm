@@ -40,7 +40,7 @@ public class QuickSort {
                 array[low] = array[high];
                 low++;
             }
-            while (high > low && array[high] < baseX) {
+            while (high > low && array[low] < baseX) {
                 low++;
             }
             if (high > low) {
