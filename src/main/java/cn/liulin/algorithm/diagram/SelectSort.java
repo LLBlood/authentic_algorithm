@@ -21,18 +21,16 @@ public class SelectSort {
      * 从小到大排列
      * @author ll
      * @date 2021-02-24 13:47:14
-     * @param array
-     * @return int[]
+     * @param array 数组
      **/
     private static void selectSortByMin(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             int minIndex = i;
             int minArg = array[minIndex];
             for (int j = i + 1; j < array.length; j++) {
-                int tempIndex = j;
-                int tempArg = array[tempIndex];
+                int tempArg = array[j];
                 if (minArg > tempArg) {
-                    minIndex = tempIndex;
+                    minIndex = j;
                     minArg = tempArg;
                 }
             }

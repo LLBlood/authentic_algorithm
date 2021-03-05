@@ -19,10 +19,9 @@ public class QuickSort {
      * 快速排序
      * @author ll
      * @date 2021-02-25 17:15:17
-     * @param array
-     * @param low
-     * @param high
-     * @return void
+     * @param array 数组
+     * @param low 选定起始值
+     * @param high 选定结束值
      **/
     private static void quickSortByMin(int[] array, int low, int high) {
         if (low >= high) {

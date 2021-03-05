@@ -20,9 +20,9 @@ public class QuickSortStudy {
      * 快速排序
      * @author ll
      * @date 2021-02-25 17:15:17
-     * @param array
-     * @param lowIndex
-     * @param highIndex
+     * @param array 数组
+     * @param lowIndex 选定起始值
+     * @param highIndex 选定结束值
      **/
     private static void quickSortByMin(int[] array, int lowIndex, int highIndex) {
         if (lowIndex >= highIndex) {

@@ -69,3 +69,22 @@
 直到不满足low <= high之后
 
 可以预见基准值右边大，左边小，然后分而治之
+
+### 1.5 广度优先搜索
+
+代码路径：cn.liulin.algorithm.diagram.BreadthFirstSearch
+
+图片示例路径：cn/liulin/algorithm/diagram/BreadthFirstSearch.png
+
+广度优先搜索；
+
+​	1、可解决A点到B点是否有路径
+
+​	2、可解决A点到B点最短路径
+
+例如：从朋友圈找到iphone经销商
+
+首先从自己的朋友开始找，找不到就从朋友的朋友找，直到找到为止
+
+将自己的朋友加入队列（先进先出FIFO）,找不到就把朋友的朋友加入队列，当然要排除已加入队列的人
+
