@@ -90,9 +90,11 @@
 
 ## 2、大话设计模式
 
-代码存放于路径：cn.liulin.algorithm.dhdesign.zzl
+代码存放于路径：cn.liulin.algorithm.dhdesign
 
 ### 2.1 职责链模式
+
+代码存放于路径：cn.liulin.algorithm.dhdesign.zzl
 
 每一个对象都可以处理请求，但是能够处理请求的范围不一样，当下级对象无法处理请求时，转到上级对象进行处理请求。
 
@@ -103,3 +105,12 @@
 职责链模式相当于，一个请求当前对象无法处理，就会转到下个对象处理，直到获得处理结果为止。
 
 [职责链模式](https://blog.csdn.net/qq_43479628/article/details/114838375)
+
+### 2.2 委派模式
+
+代码存放于路径：cn.liulin.algorithm.dhdesign.wp
+
+委派模式主要表现形式，当前对象需要做一件事，但是并不知道具体怎么干，需要委托另一个对象分配任务
+如班主任想要举办活动，但是不知道哪些同学擅长哪些运动，于是委托班长安排合适的运动给合适的同学。
+
+[委派模式](https://blog.csdn.net/qq_43479628/article/details/115179926)
