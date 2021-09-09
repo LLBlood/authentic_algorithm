@@ -131,7 +131,11 @@
 
 代码存放路径：cn.liulin.algorithm.leetcode
 
-### 3.1 第1题两数之和
+### 3.1 数组
+
+ 代码存放路径：cn.liulin.algorithm.leetcode.array
+
+#### 3.1.1 第1题两数之和
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TwoNumSum1
 
@@ -141,3 +145,12 @@
 
 ​	2.利用hashMap：将查询过的每一个数存储起来，查询target-x的结果是否在hashMap中存在
 
+#### 3.1.2 第26题删除有序数组中的重复项
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DelSortArrayRepeatNum26
+
+解题方法：
+
+​	1.自定义双指针法: 定义重复值对象，并设定新数组长度，使用角标不断递增查询值，若是不一样，则替换值
+
+​	2.官方双指针法：使用快指针和慢指针，快指针用于判定每个角标的值，满指针用于该数组准确的值
