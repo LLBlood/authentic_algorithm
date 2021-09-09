@@ -126,3 +126,18 @@
 当不变的和可变的行为在方法的子类实现中混合在一起的时候，不变的行为就会在子类中重复出现，我们通过模板方法模式把这些行为搬移到单一的地方，这样就帮助子类摆脱重复的不变行为的纠缠。
 
 [模板方法模式](https://blog.csdn.net/qq_43479628/article/details/117661651)
+
+## 3、LeetCode
+
+代码存放路径：cn.liulin.algorithm.leetcode
+
+### 3.1 第1题两数之和
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TwoNumSum1
+
+解题方法：
+
+​	1.暴力破解法：取出数组中的每一个数，然后与后面的数相加对比是否为target
+
+​	2.利用hashMap：将查询过的每一个数存储起来，查询target-x的结果是否在hashMap中存在
+
