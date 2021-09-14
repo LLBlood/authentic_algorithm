@@ -176,3 +176,21 @@
 ​	1.自定义二分查找法：不再详细描述
 
 ​	2.官方二分查找法：完美套入所有条件
+
+#### 3.1.5 第53题最大子序和
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MaximumSuborderSum53
+
+解题方法：
+
+​	1.官方题解法：动态规划
+
+​		设定一个值pre存储，Nums[i]与f{i-1} + nums[i]较大值，f{i-1}就是i值之前的数组和；
+
+​		设定一个值max存储 pre和max的较大值，遍历数组完毕后，返回max即可
+
+​	2.官方题解法：分治法
+
+​		对于一个数组，可以分为左右两个区间，该数组的最大子序和mSum，可能是左右区间的mSum的较大值，也有可能是左区间数组的 rSum +左区间数组lSum，对于每一个区间又是一个数组，数组的lSum取值为左区间的lSum，或者lSum + 右区间的iSum， 数组的rSum取值为右区间的rSum, 或者rSum + 左区间的iSum
+
+所以每一个数组所拥有的属性为mSum, rSum, lSum, iSum
