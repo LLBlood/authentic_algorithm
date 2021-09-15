@@ -224,3 +224,11 @@
 解题方法：
 
 ​	1.自定义：递归中序靠左遍历
+
+#### 3.1.9 第118题.杨辉三角
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.YangHuiTriangle118
+
+解题方法：
+
+​	1.自定义：数学推导法
