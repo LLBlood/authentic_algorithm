@@ -232,3 +232,15 @@
 解题方法：
 
 ​	1.自定义：数学推导法
+
+#### 3.1.10 第119题.杨辉三角II
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.YangHuiTriangleTwo119
+
+解题方法：
+
+​	1.自定义：递推法
+
+​	2.官方题解法：滚筒法
+
+​	3.进一步优化滚筒法
