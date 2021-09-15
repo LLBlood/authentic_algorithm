@@ -135,7 +135,7 @@
 
  代码存放路径：cn.liulin.algorithm.leetcode.array
 
-#### 3.1.1 第1题两数之和
+#### 3.1.1 第1题.两数之和
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TwoNumSum1
 
@@ -145,7 +145,7 @@
 
 ​	2.利用hashMap：将查询过的每一个数存储起来，查询target-x的结果是否在hashMap中存在
 
-#### 3.1.2 第26题删除有序数组中的重复项
+#### 3.1.2 第26题.删除有序数组中的重复项
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DelSortArrayRepeatNum26
 
@@ -155,7 +155,7 @@
 
 ​	2.官方双指针法：使用快指针和慢指针，快指针用于判定每个角标的值，满指针用于该数组准确的值
 
-#### 3.1.3 第27题移除元素
+#### 3.1.3 第27题.移除元素
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DelElement27
 
@@ -167,7 +167,7 @@
 
 ​	3.官方双指针法2: 分左指针，右指针，左指针从左边开始，如果等于val，就与右指针对应的数交换，左右指针相等时结束循环
 
-#### 3.1.4 第35题搜索插入位置
+#### 3.1.4 第35题.搜索插入位置
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.SearchInsertPosition35
 
@@ -177,7 +177,7 @@
 
 ​	2.官方二分查找法：完美套入所有条件
 
-#### 3.1.5 第53题最大子序和
+#### 3.1.5 第53题.最大子序和
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MaximumSuborderSum53
 
@@ -195,7 +195,7 @@
 
 所以每一个数组所拥有的属性为mSum, rSum, lSum, iSum
 
-#### 3.1.6 第66题加一
+#### 3.1.6 第66题.加一
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.AddOne66
 
@@ -216,3 +216,11 @@
 ​	2.官方：双指针法
 
 ​	3.官方：逆双指针法
+
+#### 3.1.8 第108题.将有序数组转换为二叉搜索树
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ConvertArrayToBinarySearchTree108
+
+解题方法：
+
+​	1.自定义：递归中序靠左遍历
