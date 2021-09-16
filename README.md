@@ -252,3 +252,15 @@
 解题方法：
 
 ​	1.自定义：一次遍历
+
+#### 3.1.12 第167题. 两数之和 II - 输入有序数组
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TwoNumSumOrderArrayTwo167
+
+解题方法：
+
+​	1.自定义：map存储
+
+​	2.官方题解法：双指针法
+
+​	3.官方题解法：二分查找法
