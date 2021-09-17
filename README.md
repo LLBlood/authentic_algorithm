@@ -264,3 +264,11 @@
 ​	2.官方题解法：双指针法
 
 ​	3.官方题解法：二分查找法
+
+#### 3.1.13 第217题. 存在重复元素
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DuplicateElements217
+
+解题方法：
+
+​	1.官方题解法：哈希
