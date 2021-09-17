@@ -272,3 +272,11 @@
 解题方法：
 
 ​	1.官方题解法：哈希
+
+#### 3.1.14 第219题. 存在重复元素 II
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DuplicateElementsTwo219
+
+解题方法：
+
+​	1.官方题解法：散列表
