@@ -280,3 +280,11 @@
 解题方法：
 
 ​	1.官方题解法：散列表
+
+#### 3.1.15 第228题. 汇总区间
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.SummaryInterval228
+
+解题方法：
+
+​	1.自定义版本： 顺序遍历
