@@ -288,3 +288,25 @@
 解题方法：
 
 ​	1.自定义版本： 顺序遍历
+
+#### 3.1.16 第268题.丢失的数字
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MissingNumber268
+
+解题方法：
+
+​	1.自定义：哈希法
+
+​	2.官方：排序法
+
+​	3.高斯算法
+
+#### 3.1.17 第283题.移动零
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MoveZero283
+
+解题方法：
+
+​	1.自定义：强行记录法
+
+​	2.官方双指针法：左值针left指向已处理数据尾部，右指针指向未处理头部，左右指针之间的区域就是0
