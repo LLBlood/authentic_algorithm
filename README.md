@@ -345,3 +345,12 @@
 
 ​	3.官方题解法：
 
+#### 3.1.21 第453题.最小操作次数使数组元素相等
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MinOperaArrayEqualsElements453
+
+解题方法：
+
+官方数学法：给数组除某个元素外的所有元素+1，即对该元素进行-1
+
+首先找出最小的数，然后算出每个数变更到最小数的次数
