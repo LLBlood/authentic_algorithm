@@ -380,3 +380,11 @@
 解题方法：
 
 自定义法：单次扫描
+
+#### 3.1.25 第500题. 键盘行
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.KeyboardLine500
+
+解题方法：
+
+自定义法：暴力法
