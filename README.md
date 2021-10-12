@@ -372,3 +372,11 @@
 解题方法：
 
 自定义法：一次遍历
+
+#### 3.1.24 第495题. 提莫攻击
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TimoAttack495
+
+解题方法：
+
+自定义法：单次扫描
