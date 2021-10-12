@@ -388,3 +388,11 @@
 解题方法：
 
 自定义法：暴力法
+
+#### 3.1.26 第506题. 相对名次
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.RelativeRanking506
+
+解题方法：
+
+自定义法：暴力法
