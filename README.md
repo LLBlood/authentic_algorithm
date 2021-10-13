@@ -412,3 +412,11 @@
 解题方法：
 
 自定义法：二维数组的一维表示
+
+#### 3.1.29 第575题. 分糖果
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DivideCandy575
+
+解题方法：
+
+自定义：暴力法
