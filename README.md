@@ -404,3 +404,11 @@
 解题方法：
 
 自定义法：排序，每次挑第二大的数据
+
+#### 3.1.28 第566题. 重塑矩阵
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ReshapingTheMatrix566
+
+解题方法：
+
+自定义法：二维数组的一维表示
