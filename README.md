@@ -396,3 +396,11 @@
 解题方法：
 
 自定义法：暴力法
+
+#### 3.1.27 第561题. 数组拆分 I
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ArraySplittingI561
+
+解题方法：
+
+自定义法：排序，每次挑第二大的数据
