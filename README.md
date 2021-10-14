@@ -436,3 +436,11 @@
 解题方法：
 
 管方法：一遍遍历
+
+#### 3.1.32第599题.  两个列表的最小索引总和
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MinimumIndexOfList599
+
+解题方法：
+
+管方法：使用哈希表（线性） [Accepted]
