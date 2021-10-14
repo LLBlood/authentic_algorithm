@@ -428,3 +428,11 @@
 解题方法：
 
 管方法：哈希+一次扫描
+
+#### 3.1.31第598题. 范围求和 II
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.LongestHarmonicSubsequence594
+
+解题方法：
+
+管方法：一遍遍历
