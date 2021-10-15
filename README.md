@@ -444,3 +444,11 @@
 解题方法：
 
 管方法：使用哈希表（线性） [Accepted]
+
+#### 3.1.33第605题.  种花问题
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.FlowerPlanting605
+
+解题方法：
+
+管方法：数学题解法（贪心）
