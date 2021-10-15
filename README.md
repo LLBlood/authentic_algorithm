@@ -462,3 +462,13 @@
 官方法：排序解题法
 
 官方法：线性扫描
+
+#### 3.1.35第643题.  子数组最大平均数 I
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MaxAverageNumberOfSubArraysI643
+
+解题方法：
+
+自定义：暴力法超时
+
+官方法：滑动窗口
