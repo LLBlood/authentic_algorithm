@@ -480,3 +480,11 @@
 解题方法：
 
 自定义：纯数学法
+
+#### 3.1.36第661题.  图片平滑器
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.WrongSet645
+
+解题方法：
+
+官方法：方法 1：遍历矩阵
