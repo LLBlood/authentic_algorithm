@@ -472,3 +472,11 @@
 自定义：暴力法超时
 
 官方法：滑动窗口
+
+#### 3.1.36第645题.  错误的集合
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.WrongSet645
+
+解题方法：
+
+自定义：纯数学法
