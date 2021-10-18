@@ -522,3 +522,11 @@
 解题方法：
 
 官方法：数组链表形式
+
+#### 3.1.42第706题. 设计哈希映射
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DesignHashMapping706
+
+解题方法：
+
+官方题解法：设计链表数组
