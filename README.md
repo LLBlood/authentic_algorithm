@@ -481,10 +481,18 @@
 
 自定义：纯数学法
 
-#### 3.1.36第661题.  图片平滑器
+#### 3.1.37第661题.  图片平滑器
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.WrongSet645
 
 解题方法：
 
 官方法：方法 1：遍历矩阵
+
+#### 3.1.38第674.题. 最长连续递增序列
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.LongestContinuousIncreasingSequence674
+
+解题方法：
+
+自定义：贪心算法
