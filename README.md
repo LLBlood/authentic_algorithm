@@ -489,10 +489,20 @@
 
 官方法：方法 1：遍历矩阵
 
-#### 3.1.38第674.题. 最长连续递增序列
+#### 3.1.38第674题. 最长连续递增序列
 
 代码存放路径：cn.liulin.algorithm.leetcode.array.simple.LongestContinuousIncreasingSequence674
 
 解题方法：
 
 自定义：贪心算法
+
+#### 3.1.39第697题. 数组的度
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DegreeOfArray697
+
+解题方法：
+
+自定义：三MAP法
+
+官方：单Map
