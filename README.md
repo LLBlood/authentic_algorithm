@@ -514,3 +514,11 @@
 解题方法：
 
 自定义：二分查找法
+
+#### 3.1.41第705题. 设计哈希集合
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DesignHashSet705
+
+解题方法：
+
+官方法：数组链表形式
