@@ -506,3 +506,11 @@
 自定义：三MAP法
 
 官方：单Map
+
+#### 3.1.40第704题. 二分查找
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.BinarySearch704
+
+解题方法：
+
+自定义：二分查找法
