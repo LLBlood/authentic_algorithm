@@ -530,3 +530,11 @@
 解题方法：
 
 官方题解法：设计链表数组
+
+#### 3.1.43第717题. 1比特与2比特字符
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.OneBitAndTwoBitCharacters717
+
+解题方法：
+
+官方题解法：贪心
