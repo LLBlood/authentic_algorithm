@@ -538,3 +538,11 @@
 解题方法：
 
 官方题解法：贪心
+
+#### 3.1.44第720题. 词典中最长的单词
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.LongestWordDictionary720
+
+解题方法：
+
+官方题解法：暴力法
