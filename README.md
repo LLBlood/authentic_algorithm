@@ -564,3 +564,11 @@
 解题方法：
 
 自定义：深度优先搜索
+
+#### 3.1.47第744题. 寻找比目标字母大的最小字母
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.FindSmallThanTarget744
+
+解题方法：
+
+自定义：二分查找法
