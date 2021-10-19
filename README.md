@@ -546,3 +546,13 @@
 解题方法：
 
 官方题解法：暴力法
+
+#### 3.1.45第724题. 寻找数组的中心下标
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.FindCenterSubOfArray724
+
+解题方法：
+
+自定义，双向匹配法
+
+官方：前缀和
