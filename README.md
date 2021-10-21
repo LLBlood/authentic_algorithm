@@ -592,3 +592,11 @@
 解题方法：
 
 自定义：线性扫描
+
+#### 3.1.49第766题. 托普利茨矩阵
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ToplitzMatrix766
+
+解题方法：
+
+自定义：遍历
