@@ -608,3 +608,11 @@
 解题方法：
 
 自定义：哈希集合
+
+#### 3.1.51第806题. 写字符串需要的行数
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.NumberLineOfWriteStr806
+
+解题方法：
+
+自定义：顺序遍历
