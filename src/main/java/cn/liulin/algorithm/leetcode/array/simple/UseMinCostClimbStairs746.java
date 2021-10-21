@@ -10,6 +10,13 @@ package cn.liulin.algorithm.leetcode.array.simple;
  * @date 2021-10-20 16:39:06
  **/
 public class UseMinCostClimbStairs746 {
+    /**
+     * 滚筒法
+     * @author ll
+     * @date 2021-10-21 11:25:24
+     * @param cost
+     * @return int
+     **/
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
         int prev = 0, curr = 0;
