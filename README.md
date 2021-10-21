@@ -600,3 +600,11 @@
 解题方法：
 
 自定义：遍历
+
+#### 3.1.50第804. 唯一摩尔斯密码词题. 唯一摩尔斯密码词
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.UniqueMorseCodeWord804
+
+解题方法：
+
+自定义：哈希集合
