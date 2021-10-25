@@ -711,3 +711,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：双指针法
+
+#### 3.1.62 第908题. 最小差值 I
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.MinimumDifferenceI908
+
+解题方法：
+
+自定义：数学法
