@@ -687,3 +687,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 官方：哈希算法
+
+#### 3.1.59 第892题. 三维形体的表面积
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.SurfaceAreaOfThreeDimensional892
+
+解题方法：
+
+自定义：数学法
