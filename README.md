@@ -671,3 +671,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：模拟
+
+#### 3.1.57 第883题. 三维形体投影面积
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ProjectedAreaOfThreeDimensional883
+
+解题方法：
+
+自定义：数学
