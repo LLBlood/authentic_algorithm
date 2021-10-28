@@ -735,3 +735,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义排序
+
+#### 3.1.65 第941题. 有效的山脉数组
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ValidMountainArray941
+
+解题方法：
+
+官方：线性扫描
