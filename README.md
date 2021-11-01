@@ -803,3 +803,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 自定义：暴力法
 
 官方：计数法
+
+#### 3.1.73 第1013题. 将数组分成和相等的三个部分
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DivideArrayToThreePartsEquals1013
+
+解题方法：
+
+官方：数学法
