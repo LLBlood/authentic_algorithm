@@ -827,3 +827,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 官方：桶排序法
+
+#### 3.1.76 第1089题. 复写零
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DuplicateZero1089
+
+解题方法：
+
+官方：两次遍历
