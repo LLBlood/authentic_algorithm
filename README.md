@@ -811,3 +811,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 官方：数学法
+
+#### 3.1.74 第1018题. 可被 5 整除的二进制前缀
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.BinaryPrefixDivideByFive1018
+
+解题方法：
+
+官方：遍历法
