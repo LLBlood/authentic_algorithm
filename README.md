@@ -875,3 +875,13 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：双hash法
+
+#### 3.1.82 第1217题. 玩筹码
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.PlayingChips1217
+
+解题方法：
+
+自定义：蠢材暴力法
+
+大神解读法 将移动转为奇偶数法
