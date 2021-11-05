@@ -885,3 +885,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 自定义：蠢材暴力法
 
 大神解读法 将移动转为奇偶数法
+
+#### 3.1.83 第1232题. 缀点成线
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DottedLine1232
+
+解题方法：
+
+自定义：双点求直线方程
