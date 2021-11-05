@@ -893,3 +893,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：双点求直线方程
+
+#### 3.1.84 第1252题. 奇数值单元格的数目
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.NumberOfOddValueCells1252
+
+解题方法：
+
+自定义：数学法
