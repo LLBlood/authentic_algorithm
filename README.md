@@ -927,3 +927,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 自定义：全部遍历法
 
 官方：遍历计算法
+
+#### 3.1.87 第1299题. 将每个元素替换为右侧最大元素
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ReplaceEachEleWithLastRight1299
+
+解题方法：
+
+官方：逆序遍历
