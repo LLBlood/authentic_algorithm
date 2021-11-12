@@ -917,3 +917,13 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：模拟
+
+#### 3.1.86 第1287题. 有序数组中出现次数超过25%的元素
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ElementsOrderArray1287
+
+解题方法：
+
+自定义：全部遍历法
+
+官方：遍历计算法
