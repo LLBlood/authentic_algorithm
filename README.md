@@ -959,3 +959,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：暴力法
+
+#### 3.1.91 第1351题. 统计有序矩阵中的负数 
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.NegativeNumberInOrder1351
+
+解题方法：
+
+自定义：二分查找法
