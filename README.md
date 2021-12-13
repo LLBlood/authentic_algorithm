@@ -975,3 +975,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：暴力法
+
+#### 3.1.93 第1365题. 有多少小于当前数字的数字
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.SortAccordUnderBinary1356
+
+解题方法：
+
+自定义：计数排序
