@@ -1035,3 +1035,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：基本算法
+
+#### 3.1.100 第1431题. 拥有最多糖果的孩子
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ChildrenWithTheMostCandy1431
+
+解题方法：
+
+自定义：遍历
