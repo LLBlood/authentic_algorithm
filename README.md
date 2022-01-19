@@ -1091,3 +1091,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：遍历
+
+#### 3.1.107 第1480题. 一维数组的动态和
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DynamicSumOfArray1480
+
+解题方法：
+
+自定义：原地修改
