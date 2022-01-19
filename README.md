@@ -1109,3 +1109,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 自定义：暴力遍历
 
 官方：等差数列
+
+#### 3.1.109 第1534题. 统计好三元组
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.CountTriples1534
+
+解题方法：
+
+自定义：枚举
