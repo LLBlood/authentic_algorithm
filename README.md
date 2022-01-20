@@ -1133,3 +1133,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：枚举
+
+#### 3.1.112 第1566题. 重复至少 K 次且长度为 M 的模式
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.RepeatThePatternWithLength1566
+
+解题方法：
+
+自定义：枚举
