@@ -1117,3 +1117,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：枚举
+
+#### 3.1.110 第1539题. 第 k 个缺失的正整数
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TheMissingPositiveInteger1539
+
+解题方法：
+
+自定义：枚举
