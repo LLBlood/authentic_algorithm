@@ -1144,8 +1144,16 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.1.113 第1560题. 圆形赛道上经过次数最多的扇区
 
-代码存放路径：cn.liulin.algorithm.leetcode.array.simple.. 圆形赛道上经过次数最多的扇区
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.TheSectorWithTheMostPasses1560
 
 解题方法：
 
 自定义：枚举
+
+#### 3.1.114 第1572题. 矩阵对角线元素的和
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.SumOfDiagonalElementsOfMatrix1572
+
+解题方法：
+
+自定义：逐行取数
