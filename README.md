@@ -1205,3 +1205,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：一次遍历
+
+#### 3.1.121 第1636题. 按照频率将数组升序排序
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.SortTheArrayInAscendingOrderByFrequency1636
+
+解题方法：
+
+自定义：暴力法
