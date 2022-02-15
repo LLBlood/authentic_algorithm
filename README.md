@@ -1221,3 +1221,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 官方：模拟
+
+#### 3.1.123 第1652题. 拆炸弹
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.BombRemoval1652
+
+解题方法：
+
+自定义：滑动计算
