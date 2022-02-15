@@ -1229,3 +1229,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：滑动计算
+
+#### 3.1.124 第1656题. 设计有序流
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.DesignOrderedFlow1656
+
+解题方法：
+
+自定义：暴力法
