@@ -1213,3 +1213,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：暴力法
+
+#### 3.1.122 第1646题. 获取生成数组中的最大值
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.GetTheMaximumValue1646
+
+解题方法：
+
+官方：模拟
