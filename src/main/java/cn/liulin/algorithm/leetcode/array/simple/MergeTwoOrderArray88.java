@@ -99,4 +99,26 @@ public class MergeTwoOrderArray88{
             nums1[tail--] = cur;
         }
     }
+
+
+    /**
+     * 从大到小填充数据
+     * @author ll
+     * @date 2022-06-09 17:09:55
+     * @param nums1
+     * @param m
+     * @param nums2
+     * @param n
+     * @return void
+     **/
+    public void merge4(int[] nums1, int m, int[] nums2, int n) {
+        int sumI = m + n - 1;
+        while (sumI >= 0 && n > 0) {
+            if (m > 0 && nums1[m - 1] > nums2[n - 1]) {
+                nums1[sumI--] = nums1[m-- - 1];
+            } else {
+                nums1[sumI--] = nums2[n-- - 1];
+            }
+        }
+    }
 }
