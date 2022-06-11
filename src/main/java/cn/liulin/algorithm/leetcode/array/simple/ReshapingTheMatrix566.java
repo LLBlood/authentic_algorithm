@@ -38,4 +38,23 @@ public class ReshapingTheMatrix566 {
         int[][] mat = {{1,2},{3,4}};
         new ReshapingTheMatrix566().matrixReshape(mat, 1 ,4);
     }
+
+    public int[][] matrixReshape2(int[][] mat, int r, int c) {
+        int m = mat.length;
+        int n = mat[0].length;
+        if (m * n != r * c || (m == r && n == c)) {
+            return mat;
+        }
+        int[][] newMat = new int[r][c];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                int value = mat[i][j];
+                int sum = i * n + j;
+                int x = sum / c;
+                int y = sum % c;
+                newMat[x][y] = value;
+            }
+        }
+        return newMat;
+    }
 }
