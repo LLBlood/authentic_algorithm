@@ -36,4 +36,24 @@ public class YangHuiTriangle118 {
         }
         return list;
     }
+
+    public List<List<Integer>> generate2(int numRows) {
+        List<List<Integer>> list = new ArrayList<>(numRows);
+        List<Integer> preList = new ArrayList<>();
+        preList.add(1);
+        list.add(preList);
+        for (int i = 1; i < numRows; i++) {
+            List<Integer> tempList = new ArrayList<>(i + 1);
+            for (int j = 0; j <= i; j++) {
+                if (j == 0 || j == i) {
+                    tempList.add(1);
+                } else {
+                    tempList.add(preList.get(j - 1) + preList.get(j));
+                }
+            }
+            list.add(tempList);
+            preList = tempList;
+        }
+        return list;
+    }
 }
