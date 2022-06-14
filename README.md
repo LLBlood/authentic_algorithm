@@ -1302,9 +1302,9 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 官方：快慢指针
 
-#### 3.2.2 第383题. 赎金信
+#### 3.2.2 第21题. 合并两个有序链表
 
-代码存放路径：cn.liulin.algorithm.leetcode.string.simple.RansomLetter383
+代码存放路径：cn.liulin.algorithm.leetcode.string.simple.MergeOrderLinkedList21
 
 解题方法：
 

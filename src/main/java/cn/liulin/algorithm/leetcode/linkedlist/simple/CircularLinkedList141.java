@@ -11,6 +11,8 @@ package cn.liulin.algorithm.leetcode.linkedlist.simple;
  * }
  */
 
+import cn.liulin.algorithm.leetcode.pojo.circular.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -49,11 +51,3 @@ public class CircularLinkedList141 {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
