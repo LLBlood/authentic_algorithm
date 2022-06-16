@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * cn.liulin.algorithm.leetcode.stack.simple$
- *
+ * 20. 有效的括号
  * @author ll
  * @date 2022-06-16 17:29:33
  **/
