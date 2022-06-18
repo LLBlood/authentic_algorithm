@@ -1377,3 +1377,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：树的后序遍历
+
+#### 3.5.4 第102题.  二叉树的层序遍历
+
+代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.SequenceTraversalOfBinaryTree102
+
+解题方法：
+
+自定义：递归法
