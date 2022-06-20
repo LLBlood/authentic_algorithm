@@ -1425,3 +1425,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：迭代法
+
+#### 3.5.10 第701题. 二叉搜索树中的插入操作
+
+代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.InsertBinarySearchTree701
+
+解题方法：
+
+自定义：迭代法
