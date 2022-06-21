@@ -1388,7 +1388,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.5.5 第104题. 二叉树的最大深度
 
-代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.MaximumDepthOfBinaryTree104
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.MaximumDepthOfBinaryTree104
 
 解题方法：
 
@@ -1396,7 +1396,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.5.6 第101题. 对称二叉树
 
-代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.SymmetricBinaryTree101
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.SymmetricBinaryTree101
 
 解题方法：
 
@@ -1404,7 +1404,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.5.7 第226题. 翻转二叉树
 
-代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.FlipBinaryTree226
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.FlipBinaryTree226
 
 解题方法：
 
@@ -1412,7 +1412,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.5.8 第112题. 路径总和
 
-代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.PathSum112
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.PathSum112
 
 解题方法：
 
@@ -1420,7 +1420,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.5.9 第700题. 二叉搜索树中的搜索
 
-代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.SearchInBinarySearchTree700
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.SearchInBinarySearchTree700
 
 解题方法：
 
@@ -1437,6 +1437,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 #### 3.5.11 第98题. 验证二叉搜索树
 
 代码存放路径：cn.liulin.algorithm.leetcode.tree.medium.ValidateBinarySearchTree98
+
+解题方法：
+
+自定义：中序遍历
+
+#### 3.5.12 第653题. 两数之和 IV - 输入 BST
+
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.SumOfTwoIV653
 
 解题方法：
 
