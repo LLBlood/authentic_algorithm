@@ -38,4 +38,20 @@ public class BinarySearch704 {
         int search = new BinarySearch704().search(nums, 2);
         System.out.println(search);
     }
+
+    public int search2(int[] nums, int target) {
+        int m = 0;
+        int n = nums.length - 1;
+        while (m <= n) {
+            int middle = (m + n) >> 1;
+            if (nums[middle] > target) {
+                n = middle - 1;
+            } else if (nums[middle] < target) {
+                m = middle + 1;
+            } else {
+                return middle;
+            }
+        }
+        return -1;
+    }
 }
