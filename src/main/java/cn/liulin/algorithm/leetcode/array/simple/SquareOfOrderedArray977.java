@@ -30,4 +30,21 @@ public class SquareOfOrderedArray977{
         }
         return newArr;
     }
+
+    public int[] sortedSquares2(int[] nums) {
+        int[] ints = new int[nums.length];
+        int x = 0;
+        int y = nums.length - 1;
+        int i = nums.length - 1;
+        while (x <= y) {
+            if (Math.abs(nums[x]) > Math.abs(nums[y])) {
+                ints[i--] = nums[x] * nums[x];
+                x++;
+            } else {
+                ints[i--] = nums[y] * nums[y];
+                y--;
+            }
+        }
+        return ints;
+    }
 }
