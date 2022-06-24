@@ -82,4 +82,42 @@ public class TwoNumSumOrderArrayTwo167 {
         }
         return null;
     }
+
+    public int[] twoSum10(int[] numbers, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 1; i <= numbers.length; i++) {
+            int value = numbers[i - 1];
+            if (map.containsKey(target - value)) {
+                return new int[] {map.get(target - value), i};
+            } else {
+                map.put(value, i);
+            }
+        }
+        return null;
+    }
+
+    public int[] twoSum11(int[] numbers, int target) {
+        for (int i = 0; i < numbers.length; i++) {
+            int value = target - numbers[i];
+            int z = getValue(numbers, i + 1, numbers.length - 1, value);
+            if (z != -1) {
+                return new int[] {i + 1, z + 1};
+            }
+        }
+        return null;
+    }
+
+    private int getValue(int[] numbers, int start, int end, int value) {
+        while (start <= end) {
+            int middle = start + (end - start) / 2;
+            if (numbers[middle] == value) {
+                return middle;
+            } else if (numbers[middle] > value) {
+                end = middle - 1;
+            } else {
+                start = middle + 1;
+            }
+        }
+        return -1;
+    }
 }
