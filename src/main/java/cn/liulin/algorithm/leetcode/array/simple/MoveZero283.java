@@ -50,4 +50,16 @@ public class MoveZero283 {
         nums[left] = nums[right];
         nums[right] = temp;
     }
+
+    public void moveZeroes3(int[] nums) {
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > 0) {
+                nums[index++] = nums[i];
+            }
+        }
+        while (index < nums.length) {
+            nums[index++] = 0;
+        }
+    }
 }
