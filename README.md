@@ -1282,7 +1282,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.1.130 第557题. 反转字符串中的单词 III
 
-代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ReverseWordIII557
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.ReverseWordIII557	
 
 解题方法：
 
@@ -1353,6 +1353,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 #### 3.2.4 第83题. 删除排序链表中的重复元素
 
 代码存放路径：cn.liulin.algorithm.leetcode.string.simple.DeleteDuplicateElements83
+
+解题方法：
+
+自定义：一次遍历
+
+#### 3.2.5 第876题. 链表的中间结点
+
+代码存放路径：cn.liulin.algorithm.leetcode.string.simple.NodeOfLinkedList876
 
 解题方法：
 
