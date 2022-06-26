@@ -1366,6 +1366,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：一次遍历
 
+#### 3.2.6 第19题. 删除链表的倒数第 N 个结点
+
+代码存放路径：cn.liulin.algorithm.leetcode.linkedlist.medium.DeleteTheNode19
+
+解题方法：
+
+自定义：一次遍历
+
 ### 3.4 栈\队列
 
 #### 3.4.1 第20题. 有效的括号
