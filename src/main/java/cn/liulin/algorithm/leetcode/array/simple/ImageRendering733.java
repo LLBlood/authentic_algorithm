@@ -62,4 +62,33 @@ public class ImageRendering733 {
         int[][] img = {{0,0,0},{0,1,1}};
         System.out.println(JSON.toJSONString(new ImageRendering733().floodFill(img, 1, 1, 1)));
     }
+
+    public int[][] floodFill3(int[][] image, int sr, int sc, int color) {
+        int oldValue = image[sr][sc];
+        if (oldValue == color) {
+            return image;
+        }
+        image[sr][sc] = color;
+        floodAllFile(image, sr, sc, oldValue, color);
+        return image;
+    }
+
+    private void floodAllFile(int[][] image, int sr, int sc, int oldValue, int newColor) {
+        if (sr - 1 >= 0 && image[sr - 1][sc] == oldValue) {
+            image[sr - 1][sc] = newColor;
+            dealImage(image, sr - 1, sc, oldValue, newColor);
+        }
+        if (sr + 1 < image.length && image[sr + 1][sc] == oldValue) {
+            image[sr + 1][sc] = newColor;
+            dealImage(image, sr + 1, sc, oldValue, newColor);
+        }
+        if (sc - 1 >= 0 && image[sr][sc - 1] == oldValue) {
+            image[sr][sc - 1] = newColor;
+            dealImage(image, sr, sc - 1, oldValue, newColor);
+        }
+        if (sc + 1 < image[0].length && image[sr][sc + 1] == oldValue) {
+            image[sr][sc + 1] = newColor;
+            dealImage(image, sr, sc + 1, oldValue, newColor);
+        }
+    }
 }
