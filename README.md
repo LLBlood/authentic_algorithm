@@ -1522,6 +1522,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：递归
 
+#### 3.5.14 第617题. 合并二叉树
+
+代码存放路径：cn.liulin.algorithm.leetcode.tree.simple.MergeBinaryTree617
+
+解题方法：
+
+自定义：递归
+
 ### 3.6 算法
 
 #### 3.6.1 第278题. 第一个错误的版本
