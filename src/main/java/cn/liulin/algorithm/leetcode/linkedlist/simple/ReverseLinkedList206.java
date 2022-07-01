@@ -47,4 +47,19 @@ public class ReverseLinkedList206 {
         }
         return prev;
     }
+
+    public ListNode reverseList4(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode listNode = new ListNode(-1);
+        while (head != null) {
+            ListNode next = listNode.next;
+            listNode.next = head;
+            ListNode temp = head.next;
+            head.next = next;
+            head = temp;
+        }
+        return listNode.next;
+    }
 }
