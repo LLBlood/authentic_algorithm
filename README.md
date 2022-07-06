@@ -1312,6 +1312,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：广度优先搜索
 
+#### 3.1.134 第136题. 只出现一次的数字
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.simple.NumbersOnlyOnce136
+
+解题方法：
+
+自定义：异或算法
+
 ### 3.2 字符串
 
 #### 3.2.1 第387题. 字符串中的第一个唯一字符
@@ -1607,6 +1615,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 #### 3.6.7 第231题. 2 的幂
 
 代码存放路径：cn.liulin.algorithm.leetcode.algorithm.simple.PowerOfTwo231
+
+解题方法：
+
+自定义：滚筒法
+
+#### 3.6.8 第191题. 位1的个数
+
+代码存放路径：cn.liulin.algorithm.leetcode.algorithm.simple.NumberOfBitOne191
 
 解题方法：
 
