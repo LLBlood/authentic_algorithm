@@ -1352,6 +1352,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：Z字形查找
 
+#### 3.1.139 第435题. 无重叠区间
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.medium.NonOverlappingInterval435
+
+解题方法：
+
+自定义：Z字形查找
+
 ### 3.2 字符串
 
 #### 3.2.1 第387题. 字符串中的第一个唯一字符
