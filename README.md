@@ -1342,7 +1342,15 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 解题方法：
 
-自定义：排序
+自定义：模拟
+
+#### 3.1.138 第240题. 搜索二维矩阵 II
+
+代码存放路径：cn.liulin.algorithm.leetcode.array.medium.SearchTwoMatrix240
+
+解题方法：
+
+自定义：Z字形查找
 
 ### 3.2 字符串
 
