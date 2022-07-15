@@ -1434,6 +1434,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：哈希表和滑动窗口
 
+#### 3.2.7 第409题. 最长回文串
+
+代码存放路径：cn.liulin.algorithm.leetcode.string.simple.LongestPalindrome409
+
+解题方法：
+
+自定义：哈希表和滑动窗口
+
 ### 3.3 链表
 
 #### 3.3.1 第141题. 环形链表
