@@ -14,4 +14,12 @@ public class NumbersOnlyOnce136 {
         }
         return result;
     }
+
+    public int singleNumber2(int[] nums) {
+        int start = 0;
+        for (int num : nums) {
+            start ^= num;
+        }
+        return start;
+    }
 }
