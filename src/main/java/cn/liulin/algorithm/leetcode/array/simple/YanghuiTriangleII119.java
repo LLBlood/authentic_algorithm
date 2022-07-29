@@ -27,4 +27,19 @@ public class YanghuiTriangleII119 {
         }
         return pre;
     }
+
+    public List<Integer> getRow2(int rowIndex) {
+        List<Integer> pre = new ArrayList<>(1);
+        pre.add(1);
+        for (int i = 1; i <= rowIndex; i++) {
+            for (int j = i; j > 0; j--) {
+                if (j == i) {
+                    pre.add(1);
+                } else {
+                    pre.set(j, pre.get(j) + pre.get(j - 1));
+                }
+            }
+        }
+        return pre;
+    }
 }
