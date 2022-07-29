@@ -62,4 +62,21 @@ public class ConsolidationInterval56 {
         int[][] arr = {{1,3},{2,6},{8,10},{15,18}};
         new ConsolidationInterval56().merge2(arr);
     }
+
+    public int[][] merge3(int[][] intervals) {
+        Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
+        List<int[]> list = new LinkedList<>();
+        list.add(intervals[0]);
+        for (int i = 1; i < intervals.length; i++) {
+            int[] interval = intervals[i];
+            int[] ints = list.get(list.size() - 1);
+            if (interval[0] > ints[1]) {
+                list.add(interval);
+            } else if (interval[1] > ints[1]) {
+                ints[1] = interval[1];
+            }
+        }
+        int[][] ints = new int[list.size()][];
+        return list.toArray(ints);
+    }
 }
