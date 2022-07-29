@@ -1,5 +1,7 @@
 package cn.liulin.algorithm.leetcode.array.medium;
 
+import com.alibaba.fastjson.JSON;
+
 /**
  * cn.liulin.algorithm.leetcode.array.medium$
  * 75. 颜色分类
@@ -25,5 +27,33 @@ public class ColorClassification75 {
                 end--;
             }
         }
+    }
+
+    public void sortColors2(int[] nums) {
+        int start = 0;
+        int end = nums.length - 1;
+        int i = 0;
+        int n = nums.length;
+        while (i < n) {
+            if (nums[i] == 0 && start < i) {
+                int temp = nums[i];
+                nums[i] = nums[start];
+                nums[start] = temp;
+                start++;
+            } else if (nums[i] == 2 && end > i) {
+                int temp = nums[i];
+                nums[i] = nums[end];
+                nums[end] = temp;
+                end--;
+            } else {
+                i++;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {2,0,2,1,1,0};
+        new ColorClassification75().sortColors2(nums);
+        System.out.println(JSON.toJSONString(nums));
     }
 }
