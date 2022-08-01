@@ -63,4 +63,20 @@ public class NonOverlappingInterval435 {
         int[][] intervals = {{1,100},{11,22},{1,11},{2,12}};
         new NonOverlappingInterval435().eraseOverlapIntervals(intervals);
     }
+
+    public int eraseOverlapIntervals3(int[][] intervals) {
+        Arrays.sort(intervals, Comparator.comparing(o -> o[0]));
+        int[] pre = intervals[0];
+        int ans = 1;
+        for (int i = 1; i < intervals.length; i++) {
+            int[] temp = intervals[i];
+            if (temp[0] >= pre[1]) {
+                pre = temp;
+                ans++;
+            } else if (temp[1] <= pre[1]) {
+                pre = temp;
+            }
+        }
+        return intervals.length - ans;
+    }
 }
