@@ -39,8 +39,4 @@ public class CircularII142 {
         }
         return null;
     }
-
-    public ListNode detectCycle3(ListNode head) {
-
-    }
 }
