@@ -1582,6 +1582,14 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：循环进位
 
+#### 3.2.9 第160题. 相交链表
+
+代码存放路径：cn.liulin.algorithm.leetcode.linkedlist.medium.CircularII142
+
+解题方法：
+
+自定义：哈希表，数学法
+
 ### 3.4 栈\队列
 
 #### 3.4.1 第20题. 有效的括号
