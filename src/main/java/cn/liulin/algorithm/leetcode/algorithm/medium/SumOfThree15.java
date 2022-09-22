@@ -101,4 +101,37 @@ public class SumOfThree15 {
         List<List<Integer>> lists = new SumOfThree15().threeSum(nums);
         System.out.println(lists);
     }
+
+    public List<List<Integer>> threeSum3(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> list = new LinkedList<>();
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (i != 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            int num1 = nums[i];
+            // 此处end设置在这里，是因为该数组是从小到大排列的，所以越在后面数值越大
+            int end = nums.length - 1;
+            int target = -num1;
+            for (int j = i + 1; j < nums.length - 1; j++) {
+                if (j != i + 1 && nums[j] == nums[j - 1]) {
+                    continue;
+                }
+                while (end >= j + 1 && nums[j] + nums[end] > target) {
+                    end--;
+                }
+                if (j == end) {
+                    break;
+                }
+                if (nums[j] + nums[end] == target) {
+                    List<Integer> temp = new LinkedList<>();
+                    temp.add(num1);
+                    temp.add(nums[j]);
+                    temp.add(nums[end]);
+                    list.add(temp);
+                }
+            }
+        }
+        return list;
+    }
 }
