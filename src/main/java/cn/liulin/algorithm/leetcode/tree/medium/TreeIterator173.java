@@ -26,10 +26,10 @@ public class TreeIterator173 {
     }
 
     public int next() {
-
+        return -1;
     }
 
     public boolean hasNext() {
-
+        return false;
     }
 }
