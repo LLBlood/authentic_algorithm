@@ -86,4 +86,22 @@ public class SearchTwoMatrix240 {
         }
         return false;
     }
+
+    public boolean searchMatrix5(int[][] matrix, int target) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        for (int x = m - 1; x >= 0; x--) {
+            int y = 0;
+            while (y < n) {
+                if (matrix[x][y] == target) {
+                    return true;
+                } else if (matrix[x][y] < target) {
+                    y++;
+                } else {
+                    break;
+                }
+            }
+        }
+        return false;
+    }
 }
