@@ -18,4 +18,17 @@ public class ClimbStairs70 {
         }
         return sum;
     }
+
+    public int climbStairs2(int n) {
+        if (n < 3) {
+            return n;
+        }
+        int p = 1, q = 1, r = 2;
+        for (int i = 3; i <= n; i++) {
+            p = q;
+            q = r;
+            r = p + q;
+        }
+        return r;
+    }
 }
