@@ -1869,3 +1869,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：滚筒法
+
+#### 3.7.4 第213题. 打家劫舍 II
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.HousebreakingII213
+
+解题方法：
+
+自定义：复制滚筒法
