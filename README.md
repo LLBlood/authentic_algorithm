@@ -1901,3 +1901,19 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：复制滚筒法
+
+#### 3.7.8 第53题. 最大子数组和
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.Maximum53
+
+解题方法：
+
+自定义：复制滚筒法
+
+#### 3.7.9 第918题. 环形子数组的最大和
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.MaximumSum918
+
+解题方法：
+
+自定义：复制滚筒法
