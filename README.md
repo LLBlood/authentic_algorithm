@@ -1925,3 +1925,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：复制滚筒法
+
+#### 3.7.11 第1567题. 乘积为正数的最长子数组长度
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.PositiveProduct1567
+
+解题方法：
+
+自定义：复制滚筒法
