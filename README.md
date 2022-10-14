@@ -1941,3 +1941,12 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：复制滚筒法
+
+#### 3.7.13 第121题. 买卖股票的最佳时机
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.simple.SellStocks121
+
+解题方法：
+
+自定义：复制滚筒法
+
