@@ -1984,7 +1984,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.7.18 第413题. 等差数列划分
 
-代码存放路径：cn.liulin.algorithm.leetcode.dynamic.hard.Division413
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.Division413
 
 解题方法：
 
@@ -1992,7 +1992,7 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.7.19 第91题. 解码方法
 
-代码存放路径：cn.liulin.algorithm.leetcode.dynamic.hard.DecodingMethod91
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.DecodingMethod91
 
 解题方法：
 
@@ -2000,7 +2000,15 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.7.20 第264题.丑数 II
 
-代码存放路径：cn.liulin.algorithm.leetcode.dynamic.hard.UglyNumberII264
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.UglyNumberII264
+
+解题方法：
+
+自定义：复制滚筒法
+
+#### 3.7.21 第96题. 不同的二叉搜索树
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.DifferentBinary96
 
 解题方法：
 
