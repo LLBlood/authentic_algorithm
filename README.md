@@ -2032,7 +2032,15 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.7.24 第931题. 下降路径最小和
 
-代码存放路径：cn.liulin.algorithm.leetcode.dynamic.simple.MinimumSum931
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.MinimumSum931
+
+解题方法：
+
+自定义：复制滚筒法
+
+#### 3.7.25 第120题. 三角形最小路径和
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.TriangularMin120
 
 解题方法：
 
