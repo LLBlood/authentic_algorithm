@@ -2016,7 +2016,15 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 #### 3.7.22 第118题. 杨辉三角
 
-代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.DifferentBinary96
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.simple.YanghuiTriangle118
+
+解题方法：
+
+自定义：复制滚筒法
+
+#### 3.7.23 第119题. 杨辉三角II
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.simple.YanghuiTriangleII119
 
 解题方法：
 
