@@ -2045,3 +2045,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：复制滚筒法
+
+#### 3.7.26 第1314题. 矩阵区域和
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.MatrixArea1314
+
+解题方法：
+
+自定义：复制滚筒法
