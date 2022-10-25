@@ -2053,3 +2053,19 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：复制滚筒法
+
+#### 3.7.27 第304题. 二维区域和检索 - 矩阵不可变
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.MatrixArea1314
+
+解题方法：
+
+自定义：复制滚筒法
+
+#### 3.7.28 第62题. 不同路径
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.DifferentPaths62
+
+解题方法：
+
+自定义：复制滚筒法
