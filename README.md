@@ -2078,9 +2078,17 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 
 自定义：复制滚筒法
 
-#### 3.730 第64题. 最小路径和
+#### 3.7.30 第64题. 最小路径和
 
 代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.MinimumPathAnd64
+
+解题方法：
+
+自定义：复制滚筒法
+
+#### 3.7.31 第221题. 最大正方形
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.MaximumSquare221
 
 解题方法：
 
