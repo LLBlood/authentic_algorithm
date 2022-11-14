@@ -2157,3 +2157,23 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：复制滚筒法
+
+#### 3.7.40 第343题. 整数拆分
+
+代码存放路径：cn.liulin.algorithm.leetcode.dynamic.medium.IntegerSplitting343
+
+解题方法：
+
+自定义：复制滚筒法
+
+## 3.8编程
+
+#### 3.8.1 第1523题. 在区间范围内统计奇数数目
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.CountTheOdd1523
+
+解题方法：
+
+自定义：数学计算法
+
+官方：前缀和（区间尾的奇数数量包含区级始的奇数数量）
