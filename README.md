@@ -2231,3 +2231,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：数学计算法
+
+#### 3.8.8 第1502题. 判断能否形成等差数列
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.JudgeWhether1502
+
+解题方法：
+
+自定义：数学计算法
