@@ -2283,3 +2283,13 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 Ax + By + C = 0
 
 (y - y2) / (x - x2) = (y - y1) / (x - x1)
+
+#### 3.8.14 第1588题. 所有奇数长度子数组的和
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.SumOfAll1588
+
+解题方法：
+
+自定义：暴力法
+
+官方：前缀和
