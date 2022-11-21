@@ -2293,3 +2293,13 @@ Ax + By + C = 0
 自定义：暴力法
 
 官方：前缀和
+
+#### 3.8.15 第283题. 移动零
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.MoveZero283
+
+解题方法：
+
+自定义：暴力法
+
+官方：双指针
