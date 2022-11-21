@@ -2303,3 +2303,11 @@ Ax + By + C = 0
 自定义：暴力法
 
 官方：双指针
+
+#### 3.8.16 第1672题. 最富有客户的资产总量
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.TotalAssets1672
+
+解题方法：
+
+自定义：对比法
