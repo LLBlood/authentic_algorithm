@@ -2263,3 +2263,11 @@ S=|(x1 * y2 + x2 * y3 + x3 * y1 - y1 * x2 - y2 * x3 - y3 * x1)|/2
 解题方法：
 
 自定义：数学计算法
+
+#### 3.8.12 第496题. 下一个更大元素 I
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.NextLargerElement496
+
+解题方法：
+
+自定义：栈+哈希表
