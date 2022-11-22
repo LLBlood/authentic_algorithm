@@ -2311,3 +2311,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：对比法
+
+#### 3.8.17 第1572题. 矩阵对角线元素的和
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.SumOfDiagonal1572
+
+解题方法：
+
+自定义：对比法
