@@ -2319,3 +2319,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：对比法
+
+#### 3.8.18 第566题. 重塑矩阵
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.ReshapeMatrix566
+
+解题方法：
+
+自定义：数学法
