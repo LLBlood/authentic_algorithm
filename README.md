@@ -2335,3 +2335,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：数学法
+
+#### 3.8.20 第1678题. 设计 Goal 解析器
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.DesigningGoalParser1678
+
+解题方法：
+
+自定义：数学法
