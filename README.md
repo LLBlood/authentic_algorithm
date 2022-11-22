@@ -2327,3 +2327,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：数学法
+
+#### 3.8.19 第1768题. 交替合并字符串
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.Alternately1768
+
+解题方法：
+
+自定义：数学法
