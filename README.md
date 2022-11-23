@@ -2361,3 +2361,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：根据ASCII码值计算
+
+#### 3.8.23 第1309题. 解码字母到整数映射
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.DecodingLetter1309
+
+解题方法：
+
+自定义：根据ASCII码值计算
