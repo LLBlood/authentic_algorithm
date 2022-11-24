@@ -2401,3 +2401,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义： 递归
+
+#### 3.8.28 第404题. 左叶子之和
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.SumOfLeft404
+
+解题方法：
+
+自定义： 递归
