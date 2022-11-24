@@ -2385,3 +2385,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义： 根据index位置计算
+
+#### 3.8.26 第876题. 链表的中间结点
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.IntermediateNode876
+
+解题方法：
+
+自定义： 快慢指针
