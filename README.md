@@ -2369,3 +2369,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：根据ASCII码值计算
+
+#### 3.8.24 第953题. 验证外星语词典
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.VerifyingAnAlien953
+
+解题方法：
+
+自定义： 根据index位置计算
