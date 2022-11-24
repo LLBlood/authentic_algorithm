@@ -2393,3 +2393,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义： 快慢指针
+
+#### 3.8.27 第104题. 二叉树的最大深度
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.MaximumDepth104
+
+解题方法：
+
+自定义： 递归
