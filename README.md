@@ -2425,3 +2425,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义： 栈
+
+#### 3.8.31 第242题. 有效的字母异位词
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.ValidAlphabetic242
+
+解题方法：
+
+自定义： 数组
