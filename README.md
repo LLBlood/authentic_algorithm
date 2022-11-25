@@ -2449,3 +2449,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：数据表
+
+#### 3.8.34 第303题. 区域和检索 - 数组不可变
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.RegionAndRetrieval303
+
+解题方法：
+
+自定义：前缀和
