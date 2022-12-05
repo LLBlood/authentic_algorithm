@@ -2465,3 +2465,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：一次遍历
+
+#### 3.8.36 第28题. 找出字符串中第一个匹配项的下标
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.medium.FirstMatch28
+
+解题方法：
+
+自定义：朴素算法
