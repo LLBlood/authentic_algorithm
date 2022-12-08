@@ -2491,3 +2491,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：暴力
+
+#### 3.8.39 第150题. 逆波兰表达式求值
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.medium.Evaluation150
+
+解题方法：
+
+自定义：栈
