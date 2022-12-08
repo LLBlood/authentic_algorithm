@@ -2515,3 +2515,11 @@ Ax + By + C = 0
 解题方法：
 
 官方：暴力
+
+#### 3.8.42 第43题. 字符串相乘
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.medium.StringMultiplication43
+
+解题方法：
+
+官方：暴力
