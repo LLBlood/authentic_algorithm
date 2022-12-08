@@ -2499,3 +2499,11 @@ Ax + By + C = 0
 解题方法：
 
 自定义：栈
+
+#### 3.8.40 第66题. 加一
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.AddOne66
+
+解题方法：
+
+自定义：暴力
