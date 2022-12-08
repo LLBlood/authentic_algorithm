@@ -2483,3 +2483,11 @@ Ax + By + C = 0
 官方：自顶向下
 
 自底向上
+
+#### 3.8.38 第459题. 重复的子字符串
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.DuplicateSubstrings459
+
+解题方法：
+
+自定义：暴力
