@@ -2531,3 +2531,11 @@ Ax + By + C = 0
 解题方法：
 
 官方：暴力
+
+#### 3.8.44 第989题. 数组形式的整数加法
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.IntegerAddition989
+
+解题方法：
+
+官方：暴力
