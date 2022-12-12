@@ -2555,3 +2555,11 @@ Ax + By + C = 0
 解题方法：
 
 官方：暴力
+
+#### 3.8.47 第48题. 旋转图像
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.medium.RotateImage48
+
+解题方法：
+
+官方：对称转换
