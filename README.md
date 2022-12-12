@@ -2547,3 +2547,11 @@ Ax + By + C = 0
 解题方法：
 
 官方：暴力
+
+#### 3.8.46 第58题. 最后一个单词的长度
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.LengthLast58
+
+解题方法：
+
+官方：暴力
