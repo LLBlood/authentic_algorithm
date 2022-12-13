@@ -2563,3 +2563,11 @@ Ax + By + C = 0
 解题方法：
 
 官方：对称转换
+
+#### 3.8.48 第1886题. 判断矩阵经轮转后是否一致
+
+代码存放路径：cn.liulin.algorithm.leetcode.code.simple.JudgeWhether1886
+
+解题方法：
+
+官方：旋转转换
