@@ -1,4 +1,4 @@
-package cn.liulin.algorithm.dhdesign.wp;
+package cn.liulin.algorithm.dhdesign.delegate;
 
 import java.util.HashMap;
 import java.util.Map;

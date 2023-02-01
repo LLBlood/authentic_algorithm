@@ -1,4 +1,4 @@
-package cn.liulin.algorithm.dhdesign.wp;
+package cn.liulin.algorithm.dhdesign.delegate;
 
 /**
  * cn.liulin.algorithm.dhdesign.wp$

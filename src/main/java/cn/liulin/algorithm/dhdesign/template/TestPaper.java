@@ -1,4 +1,4 @@
-package cn.liulin.algorithm.dhdesign.mb;
+package cn.liulin.algorithm.dhdesign.template;
 
 /**
  * cn.liulin.algorithm.dhdesign.mb$

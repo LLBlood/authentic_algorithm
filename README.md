@@ -94,7 +94,7 @@
 
 ### 2.1 职责链模式
 
-代码存放于路径：cn.liulin.algorithm.dhdesign.zzl
+代码存放于路径：cn.liulin.algorithm.dhdesign.responchain
 
 每一个对象都可以处理请求，但是能够处理请求的范围不一样，当下级对象无法处理请求时，转到上级对象进行处理请求。
 
@@ -108,7 +108,7 @@
 
 ### 2.2 委派模式
 
-代码存放于路径：cn.liulin.algorithm.dhdesign.wp
+代码存放于路径：cn.liulin.algorithm.dhdesign.delegate
 
 委派模式主要表现形式，当前对象需要做一件事，但是并不知道具体怎么干，需要委托另一个对象分配任务
 如班主任想要举办活动，但是不知道哪些同学擅长哪些运动，于是委托班长安排合适的运动给合适的同学。
@@ -117,7 +117,7 @@
 
 ### 2.3 模板方法模式
 
-代码存放于路径：cn.liulin.algorithm.dhdesign.mb
+代码存放于路径：cn.liulin.algorithm.dhdesign.template
 
 模板方法模式，定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 
