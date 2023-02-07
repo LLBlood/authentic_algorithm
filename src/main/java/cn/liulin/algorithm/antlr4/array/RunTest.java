@@ -1,20 +1,17 @@
-package cn.liulin.algorithm.antlr4;
+package cn.liulin.algorithm.antlr4.array;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
-import org.antlr.v4.runtime.tree.ParseTreeWalker;
-
-import java.io.IOException;
 
 /**
- * cn.liulin.algorithm.antlr4$
+ * cn.liulin.java8.antlr4$
  *
  * @author ll
- * @date 2023-02-06 16:10:27
+ * @date 2023-02-06 15:51:18
  **/
-public class TranslateTest {
-    public static void main(String[] args) throws IOException {
+public class RunTest {
+    public static void main(String[] args) throws Exception {
         // 新建一个CharStream，从标准输入读取数据
         ANTLRInputStream input = new ANTLRInputStream(System.in);
         // 新建一个词法分析器，处理输入的CharStream
@@ -25,11 +22,7 @@ public class TranslateTest {
         ArrayInitParser parser = new ArrayInitParser(tokens);
         // 针对init规则，开始语法分析
         ParseTree tree = parser.init();
-        // 新建一个通用的，能够触发回调函数的语法分析树遍历器
-        ParseTreeWalker walker = new ParseTreeWalker();
-        // 遍历语法分析过程中生成的语法分析树，触发回调
-        walker.walk(new ShortToUnicodeStringListener(), tree);
-        System.out.println();
-
+        // 用LISP风格打印生成的树
+        System.out.println(tree.toStringTree(parser));
     }
 }

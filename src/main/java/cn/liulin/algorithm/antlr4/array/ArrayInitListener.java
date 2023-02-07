@@ -1,4 +1,4 @@
-package cn.liulin.algorithm.antlr4;// Generated from ArrayInit.g4 by ANTLR 4.7.1
+package cn.liulin.algorithm.antlr4.array;// Generated from ArrayInit.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

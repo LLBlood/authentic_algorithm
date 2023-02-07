@@ -1,4 +1,4 @@
-package cn.liulin.algorithm.antlr4;
+package cn.liulin.algorithm.antlr4.array;
 
 /**
  * cn.liulin.algorithm.antlr4$
